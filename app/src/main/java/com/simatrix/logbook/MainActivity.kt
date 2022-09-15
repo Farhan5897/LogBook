@@ -10,9 +10,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        add = findViewById(R.id.add_button)
-        add.setOnClickListener {
-            Toast.makeText(this, "moga", Toast.LENGTH_SHORT).show()
         }
     }
-}
